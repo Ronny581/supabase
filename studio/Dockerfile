@@ -7,7 +7,7 @@
 #    docker builder prune
 
 
-FROM node:14 as base
+FROM node:21.1 as base
 WORKDIR /usr/src/app
 # Do `npm ci` separately so we can cache `node_modules`
 # https://nodejs.org/en/docs/guides/nodejs-docker-webapp/
