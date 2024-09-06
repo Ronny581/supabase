@@ -9,11 +9,11 @@
     "start": "next start"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.1.2",
-    "next": "latest",
+    "@supabase/supabase-js": "^2.39.3",
+    "next": "12.2.3",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "sass": "^1.26.2",
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^3.1.0"
   }
 }
