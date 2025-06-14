@@ -30,7 +30,7 @@
   "author": "Ademílson F. Tonato - @ftonato",
   "dependencies": {
     "@supabase/supabase-js": "^1.15.1",
-    "puppeteer": "^5.2.1"
+    "puppeteer": "^22.8.2"
   },
   "keywords": [
     "web components",
