@@ -216,13 +216,15 @@
     "@supabase/realtime-js" "^1.0.9"
     "@supabase/storage-js" "^1.0.3"
 
-"@supabase/ui@^0.26.1":
-  version "0.26.1"
-  resolved "https://registry.yarnpkg.com/@supabase/ui/-/ui-0.26.1.tgz#904be245e08adfa8cf006a52fcdf677c4ad2b15a"
-  integrity sha512-V4LzP+RqFhKxehubIVzENIm54k8f1K4c3jRn+1mvfoTDnfgRu4P5y0UJg3el5IqV7WS8F6X11/bmxaG8Cze+eA==
+"@supabase/ui@^0.36.5":
+  version "0.36.5"
+  resolved "https://registry.yarnpkg.com/@supabase/ui/-/ui-0.36.5.tgz#10ee6925bd6e529dbd5678bc457bff26ee71120a"
+  integrity sha512-SdjUf20sCVw0Ap+x4YfGmjMunUz9ZEipc0bwGxj2f5pEWf12qrDQyhhMcoWCWgjWneITfrjFcejV0jA9zTuiEw==
   dependencies:
     lodash "^4.17.20"
     prop-types "^15.7.2"
+  optionalDependencies:
+    fsevents "^2.3.2"
 
 "@tailwindcss/typography@^0.4.0":
   version "0.4.0"
@@ -1045,6 +1047,11 @@ fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
   integrity sha1-FQStJSMVjKpA20onh8sBQRmU6k8=
+
+fsevents@^2.3.2:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.3.tgz#cac6407785d03675a2a5e1a5305c697b347d90d6"
+  integrity sha512-5xoDfX+fL7faATnagmWPpbFtwh/R77WmMMqqHGS65C3vvB0YHrgF+B1YmZ3441tMj5n63k0212XNoJwzlhffQw==
 
 fsevents@~2.3.1:
   version "2.3.2"
